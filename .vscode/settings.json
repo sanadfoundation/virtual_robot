@@ -1,0 +1,20 @@
+{
+    "java.project.sourcePaths": [
+        "Controller/src",
+        "LearnJava/src",
+        "TeamCode/src"
+    ],
+    "java.project.referencedLibraries": [
+        "${workspaceFolder}/lib/guava-20.0.jar",
+        "${workspaceFolder}/lib/dyn4j-4.1.4.jar",
+        "${workspaceFolder}/lib/EasyOpenCV_v1.5.0_OBJ_bundle.jar",
+        "${workspaceFolder}/lib/javassist-3.21.0-GA.jar",
+        "${workspaceFolder}/lib/RoadRunner.jar",
+        "${workspaceFolder}/lib/Jamepad.jar",
+        "${workspaceFolder}/lib/PedroPathing.jar",
+        "${workspaceFolder}/lib/reflections-0.9.11.jar"
+    ],
+    "java.project.outputPath": "out/production",
+    "java.format.settings.url": ".vscode/java-formatter.xml",
+    "java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/liberica-jdk-17-full.jdk/Contents/Home"
+}

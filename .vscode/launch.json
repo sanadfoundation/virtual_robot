@@ -1,0 +1,44 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "LearnJava - Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "cwd": "${workspaceFolder}",
+            "classPaths": [
+                "${workspaceFolder}/out/production"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "VirtualRobot - Main",
+            "request": "launch",
+            "mainClass": "virtual_robot.controller.VirtualRobotApplication",
+            "cwd": "${workspaceFolder}",
+            "jdkPath": "/Library/Java/JavaVirtualMachines/liberica-jdk-8-full.jdk",
+            "classPaths": [
+                "${workspaceFolder}/out/production",
+                "${workspaceFolder}/lib/guava-20.0.jar",
+                "${workspaceFolder}/lib/dyn4j-4.1.4.jar",
+                "${workspaceFolder}/lib/EasyOpenCV_v1.5.0_OBJ_bundle.jar",
+                "${workspaceFolder}/lib/javassist-3.21.0-GA.jar",
+                "${workspaceFolder}/lib/RoadRunner.jar",
+                "${workspaceFolder}/lib/Jamepad.jar",
+                "${workspaceFolder}/lib/PedroPathing.jar",
+                "${workspaceFolder}/lib/reflections-0.9.11.jar"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "jdkPath": "/Library/Java/JavaVirtualMachines/liberica-jdk-8-full.jdk"
+        }
+    ]
+}
