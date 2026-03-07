@@ -16,5 +16,4 @@
     ],
     "java.project.outputPath": "out/production",
     "java.format.settings.url": ".vscode/java-formatter.xml",
-    "java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/liberica-jdk-17-full.jdk/Contents/Home"
 }

@@ -20,7 +20,6 @@
             "request": "launch",
             "mainClass": "virtual_robot.controller.VirtualRobotApplication",
             "cwd": "${workspaceFolder}",
-            "jdkPath": "/Library/Java/JavaVirtualMachines/liberica-jdk-8-full.jdk",
             "classPaths": [
                 "${workspaceFolder}/out/production",
                 "${workspaceFolder}/lib/guava-20.0.jar",
@@ -38,7 +37,6 @@
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}",
-            "jdkPath": "/Library/Java/JavaVirtualMachines/liberica-jdk-8-full.jdk"
         }
     ]
 }
